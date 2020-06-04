@@ -42,7 +42,7 @@ const createOrUpdate = (obj, num) => obj[num + ""] ? obj[num + ""] += 1 : obj[nu
 // Only responsible for checking numbers for odd values if odd then proceed to the next function.
 const isOdd = (num) => num % 2 != 0 ? createOrUpdate(oddNumberObj, num) : false;
 
-// This function will use both of the above functions while looping through the array with just using the isOdd.
+// This function will loop through the array with just using the isOdd.
 const findOddNums = (arr) => 
 { 
     arr.filter(num => isOdd(num));
