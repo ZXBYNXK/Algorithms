@@ -21,10 +21,19 @@ const conqurer = (dataStructure, queryAnything) => {
     return 0;
 };
 
+const find = (query) => query;
+
+const search = () => find("Search me");
+
+const exile = () => console.log("program :-:-: Exiled");
+
+const errorMsg = (err) => console.log(`Error: ${err}`);
+
+const getAllKeys = (obj) => Object.keys(obj);
+
 const expand = (obj) => {
     let heap = [];
     let stack = [];
-
     if (heap.length > 0) 
     {
         console.log("Heap has contents")

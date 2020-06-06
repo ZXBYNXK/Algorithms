@@ -78,7 +78,9 @@ const mergeSort = (arr) => {
 };
 
 const merge = (left, right) => {
+
   let mergedArray = [], leftI = 0, rightI = 0;
+  
   while (
     leftI < left.length && rightI < right.length
   ) {
@@ -90,6 +92,7 @@ const merge = (left, right) => {
         rightI++
     } 
   }
+  
   return mergedArray.concat(left.slice(leftI)).concat(right.slice(rightI))
 };
 console.log(mergeSort(mockData));
