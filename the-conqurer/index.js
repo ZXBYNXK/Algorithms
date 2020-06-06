@@ -22,8 +22,19 @@ const conqurer = (dataStructure, queryAnything) => {
 };
 
 const expand = (obj) => {
-    let heap = []
-    let stack = []
+    let heap = [];
+    let stack = [];
+
+    if (heap.length > 0) 
+    {
+        console.log("Heap has contents")
+    } else if (stack.length > 0)
+    {
+        console.log("Stack has contents")
+    } else 
+    {
+        console.log("Nothing to do!")
+    }
 }
 
 console.log(conqurer({ll: "ll", bool: true, z : {a: "f", b: "w", x: {x: "x"}}, v: "4", m: "9", k: "5"}, true))
