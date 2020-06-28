@@ -6,5 +6,10 @@ Leap Year Identifier: <br />
 Factorial: <br />
 	Used recursion to solve this algorithm.
 <br />
-Merge Sort:
-	
+
+Counting Valleys: <br />
+	In this algorithm you count the amount of valleys based on the location <br />
+	of a person's steps.  Where negative integers starting from -1 represents <br />
+	an entrance to a valley.  Solved using a for loop to iterate an array of positive & negative <br />
+	integers and setting. 
+
