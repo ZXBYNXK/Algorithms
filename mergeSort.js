@@ -28,37 +28,7 @@
 //      1: Initialize a loop to iterate both arrays with two seperate counters.
 //      2: If the left
 
-const mockData = [
-  10,
-  12,
-  8,
-  16,
-  70,
-  80,
-  15,
-  45,
-  80,
-  63,
-  1002,
-  8,
-  11,
-  12,
-  9,
-  5,
-  8,
-  29,
-  41,
-  52,
-  57,
-  45,
-  0,
-  6,
-  1003,
-  9,
-  17,
-  31,
-];
-
+const {arrOfInt} = require('./mock');
 // Splitting the array passed in half and recusively calling it self again t
 const mergeSort = (arr) => {
   // 1: If the array only has one element then return the array since there is nothing to sort.
@@ -95,4 +65,4 @@ const merge = (left, right) => {
   
   return mergedArray.concat(left.slice(leftI)).concat(right.slice(rightI))
 };
-console.log(mergeSort(mockData));
+console.log(mergeSort(arrOfInt));

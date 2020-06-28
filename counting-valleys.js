@@ -36,7 +36,7 @@ function countingValleys(n, s) {
             values.location += 1;
         }
 
-        console.log(values.location);
+        // console.log(values.location);
         if (values.location < 0) {
             values.valley = true;
         }
