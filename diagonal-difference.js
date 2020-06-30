@@ -30,31 +30,17 @@ function readLine() {
  */
 
 function diagonalDifference(arr) {
-    // Write your code here
-    // let sum = 0;
-    // for (let i = 0; i < arr.length; i++) {
-    //     if (i % 2 === 0 || i === 0) {
-    //         console.log("If", arr[i])
-    //         console.log(`Sum: \n ${sum} += ${arr[i][0]} \n ${sum} += ${arr[i][2]}`)
-    //         sum += arr[i][0]
-    //         sum += arr[i][2];
-    //     } else {
-    //         console.log("else", arr[i])
-    //         console.log(`Sum: \n ${sum} += ${arr[i][1]}`)
-
-    //         sum += arr[i][1];
-    //     }
-
-
-    // }
-    let primary = arr[0][0] + arr[1][1] + arr[2][2];
-    let secondary = arr[0][2] + arr[1][1] + arr[2][0];
-    // DEBUG
-    // console.log(`${arr[0][0]} + ${arr[1][1]} + ${arr[2][2]} = ${arr[0][0] + arr[1][1] + arr[2][2]}`)
-    // console.log(`${arr[0][2]} + ${arr[1][1]} + ${arr[2][0]} = ${arr[2][0] + arr[1][1] + arr[2][0]}`)
-    // console.log(`${primary} - ${secondary} = ${primary + secondary}`);
-    return Math.abs(primary - secondary);
-
+    const lengthOf = arr.length;
+    let primary = 0;
+    let secondary = 0;
+    for (let i = 0; i < lengthOf; i++) {
+        console.log("Primary +=", arr[i][arr.length - 1 - i]);
+        console.log("Secondary +=", arr[i][i]);
+        primary += arr[i][i]
+        secondary += arr[i][arr.length - 1 - i];
+    }
+    console.log("difference:", Math.abs(secondary - primary));
+    return Math.abs(secondary - primary)
 }
 
 function main() {
