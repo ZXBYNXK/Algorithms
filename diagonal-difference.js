@@ -31,24 +31,15 @@ function readLine() {
 
 function diagonalDifference(arr) {
     const lengthOf = arr.length;
-    const getMiddleIndex = (array) => Math.floor((array.length - 1) / 2);
-
-    const middleOfMatrix = getMiddleIndex(arr);
     let primary = 0;
     let secondary = 0;
     for (let i = 0; i < lengthOf; i++) {
-        if (i === middleOfMatrix) {
-            console.log("Middle of:", arr[i][getMiddleIndex(arr[i])])
-            let middleOf = arr[i][getMiddleIndex(arr[i])];
-            primary += middleOf;
-            secondary += middleOf;
-        } else {
-            console.log("Primary +=", arr[i][arr.length - 1 - i]);
-            console.log("Secondary +=", arr[i][i]);
-            primary += arr[i][arr.length - 1 - i];
-            secondary += arr[i][i]
-        }
+        console.log("Primary +=", arr[i][arr.length - 1 - i]);
+        console.log("Secondary +=", arr[i][i]);
+        primary += arr[i][i]
+        secondary += arr[i][arr.length - 1 - i];
     }
+    console.log("difference:", Math.abs(secondary - primary));
     return Math.abs(secondary - primary)
 }
 
