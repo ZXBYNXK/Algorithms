@@ -30,31 +30,26 @@ function readLine() {
  */
 
 function diagonalDifference(arr) {
-    // Write your code here
-    // let sum = 0;
-    // for (let i = 0; i < arr.length; i++) {
-    //     if (i % 2 === 0 || i === 0) {
-    //         console.log("If", arr[i])
-    //         console.log(`Sum: \n ${sum} += ${arr[i][0]} \n ${sum} += ${arr[i][2]}`)
-    //         sum += arr[i][0]
-    //         sum += arr[i][2];
-    //     } else {
-    //         console.log("else", arr[i])
-    //         console.log(`Sum: \n ${sum} += ${arr[i][1]}`)
+    const lengthOf = arr.length;
+    const getMiddleIndex = (array) => Math.floor((array.length - 1) / 2);
 
-    //         sum += arr[i][1];
-    //     }
-
-
-    // }
-    let primary = arr[0][0] + arr[1][1] + arr[2][2];
-    let secondary = arr[0][2] + arr[1][1] + arr[2][0];
-    // DEBUG
-    // console.log(`${arr[0][0]} + ${arr[1][1]} + ${arr[2][2]} = ${arr[0][0] + arr[1][1] + arr[2][2]}`)
-    // console.log(`${arr[0][2]} + ${arr[1][1]} + ${arr[2][0]} = ${arr[2][0] + arr[1][1] + arr[2][0]}`)
-    // console.log(`${primary} - ${secondary} = ${primary + secondary}`);
-    return Math.abs(primary - secondary);
-
+    const middleOfMatrix = getMiddleIndex(arr);
+    let primary = 0;
+    let secondary = 0;
+    for (let i = 0; i < lengthOf; i++) {
+        if (i === middleOfMatrix) {
+            console.log("Middle of:", arr[i][getMiddleIndex(arr[i])])
+            let middleOf = arr[i][getMiddleIndex(arr[i])];
+            primary += middleOf;
+            secondary += middleOf;
+        } else {
+            console.log("Primary +=", arr[i][arr.length - 1 - i]);
+            console.log("Secondary +=", arr[i][i]);
+            primary += arr[i][arr.length - 1 - i];
+            secondary += arr[i][i]
+        }
+    }
+    return Math.abs(secondary - primary)
 }
 
 function main() {
