@@ -1,3 +1,5 @@
+// Diagonal Difference Algorithm
+// https://www.hackerrank.com/challenges/apple-and-orange
 'use strict';
 
 process.stdin.resume();
