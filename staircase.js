@@ -1,7 +1,6 @@
-// Stair case algorithm
+// Staircase Algorithm
+// https://www.hackerrank.com/challenges/staircase/problem
 'use strict';
-
-
 function staircase(n) {
     let count = 0;
     while (count !== n) 
@@ -11,5 +10,6 @@ function staircase(n) {
         console.log(`${spaces}${hashes}`);
     }
 }
+// DEBUG
 staircase(4)
 
