@@ -17,14 +17,17 @@
 
     Used recursion to solve this algorithm.
 
-### [Leap Year Identifier](#):
+&nbsp;
 
+### [Leap Year Identifier](#):
     Implemented this program with readline and used functional programming methodolgy to solve the problem in a clean way.
 
 <!-- ### [Merge Sort](#): -->
 
-<!-- ### [Plus Minus](#): -->
+&nbsp;
 
+### [Plus Minus](https://github.com/DariusRain/algorithm-practice/blob/master/plus-minus.js):
+Count how many negative, positive and zero integers are in the array and divide them by the arrays length <br/> for a decimal number representing the ratio of each. 
 <!-- ### [Simple Array Sum](#): -->
 
 <!-- ### [Very Big Sum](#): -->
