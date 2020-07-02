@@ -5,9 +5,9 @@
 A-Z| Algorithm | Description | Source
 --- | --- | --- | ---
 B | | | |
-| [Birthday Cake Candles](https://github.com/DariusRain/algorithm-practice/blob/master/birthday-cake-candles.js) | [Find the highest...](https://github.com/DariusRain/algorithm-practice/pull/14) |[hackerrank](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
-[Counting Valleys](https://github.com/DariusRain/algorithm-practice/blob/master/counting-valleys.js) | [In this algorithm you count the amount  of valleys based on the...](https://github.com/DariusRain/algorithm-practice/pull/4#issuecomment-653253421) | [hackerrank](https://www.hackerrank.com/challenges/counting-valleys/problem)
-[Factorial](https://github.com/DariusRain/algorithm-practice/blob/master/counting-valleys.js) | [Used recursion to solve this algorithm....](https://github.com/DariusRain/algorithm-practice/pull/4#issuecomment-653253421) | [hackerrank](https://www.hackerrank.com/challenges/counting-valleys/problem)
+ | [Birthday Cake Candles](https://github.com/DariusRain/algorithm-practice/blob/master/birthday-cake-candles.js) | [Find the highest...](https://github.com/DariusRain/algorithm-practice/pull/14) |[hackerrank](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
+ | [Counting Valleys](https://github.com/DariusRain/algorithm-practice/blob/master/counting-valleys.js) | [In this algorithm you count the amount  of valleys based on the...](https://github.com/DariusRain/algorithm-practice/pull/4#issuecomment-653253421) | [hackerrank](https://www.hackerrank.com/challenges/counting-valleys/problem)
+ | [Factorial](https://github.com/DariusRain/algorithm-practice/blob/master/counting-valleys.js) | [Used recursion to solve this algorithm....](https://github.com/DariusRain/algorithm-practice/pull/4#issuecomment-653253421) | [hackerrank](https://www.hackerrank.com/challenges/counting-valleys/problem)
     
 
 &nbsp;
