@@ -57,7 +57,7 @@ B | | | |
 C | | | |
  &nbsp; | [Counting Valleys](https://github.com/DariusRain/algorithm-practice/blob/master/counting-valleys.js) | [In this algorithm you count the amount  of valleys based on the...](https://github.com/DariusRain/algorithm-practice/pull/4#issuecomment-653253421) | [hackerrank](https://www.hackerrank.com/challenges/counting-valleys/problem)
 F | | | |
-&nbsp; | [Factorial](https://github.com/DariusRain/algorithm-practice/blob/master/counting-valleys.js) | [Recursive function that adds in a sequence of ...](https://github.com/DariusRain/algorithm-practice/pull/3#issuecomment-653257819) | [hackerrank](https://www.hackerrank.com/challenges/counting-valleys/problem)
+&nbsp; | [Factorial](https://github.com/DariusRain/algorithm-practice/blob/master/counting-valleys.js) | [Recursive function that adds in a sequence of ...](https://github.com/DariusRain/algorithm-practice/pull/3#issuecomment-653257819) | [hackerrank](https://www.hackerrank.com/contests/c-programming-test/challenges/finding-factorial-of-n-number)
 L | | | |
 &nbsp; | [Leap Year Identifier](https://github.com/DariusRain/algorithm-practice/blob/master/dr-leapyear.js) | [Determine if inputed year is a leapyear. ](https://github.com/DariusRain/algorithm-practice/pull/4#issuecomment-653253421) | [hackerrank](https://www.hackerrank.com/challenges/leapyear/problem)
 P | | | |
