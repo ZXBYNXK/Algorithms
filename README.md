@@ -3,9 +3,7 @@ Algorithm | Description | Source
 --- | --- | ---
 <!-- #### [Apples & Oranges](#): -->
                                                                          
-Birthday Cakes Algorithm |
-Find the highest integer(s) and return the number of high integers. Which represents the tallest candles, so [12, 24, 24] would be 2 because there is two 24s if there was one then 1 would be the returned value. | 
-https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+Birthday Cakes Algorithm | Find the highest integer(s) and return the qty of high integers. | https://www.hackerrank.com/challenges/birthday-cake-candles/problem
 
 &nbsp;
 
