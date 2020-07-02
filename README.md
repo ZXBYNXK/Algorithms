@@ -2,7 +2,7 @@
 # Algorithms
 Algorithm | Description | Source
 --- | --- | ---
-    [Birthday Cake Candles](https://github.com/DariusRain/algorithm-practice/blob/master/birthday-cake-candles.js) | [Find the highest...](https://github.com/DariusRain/algorithm-practice/pull/14) |[hackerrank](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
+[Birthday Cake Candles](https://github.com/DariusRain/algorithm-practice/blob/master/birthday-cake-candles.js) | [Find the highest...](https://github.com/DariusRain/algorithm-practice/pull/14) |[hackerrank](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
 
 &nbsp;
 
