@@ -11,4 +11,4 @@ function timeConversion(s) {
 }
 
 //DEBUG
-console.log(timeConversion("07:05:45PM"))
+console.log(timeConversion("12:00:00AM"))
