@@ -1,8 +1,8 @@
+<!-- #### [Apples & Oranges](#): -->                                                            
 # Algorithms
 Algorithm | Description | Source
 --- | --- | ---
-<!-- #### [Apples & Oranges](#): -->                                                            
-Birthday Cakes Algorithm | Find the highest integer(s) and return the qty of high integers. | [hackerrank](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
+[Birthday Cakes](#) | [Find the highest int...](#)| [hackerrank](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
 
 &nbsp;
 
