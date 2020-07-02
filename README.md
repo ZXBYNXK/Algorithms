@@ -9,9 +9,11 @@ Algorithm | Description | Source
 
 <!-- #### [Compare Triplets](#): -->
 
+
+[Counting Valleys](https://github.com/DariusRain/algorithm-practice/blob/master/counting-valleys.js) | [In this algorithm you count the amount  of valleys based on the...](https://github.com/DariusRain/algorithm-practice/pull/4#issuecomment-653253421) | [hackerrank](https://www.hackerrank.com/challenges/counting-valleys/problem)
 #### [Counting Valleys](#):
 
-    In this algorithm you count the amount of valleys based on the location <br />
+    location <br />
     of a person's steps.  Where negative integers starting from -1 represents <br />
     an entrance to a valley.  Solved using a for loop to iterate an array of positive & negative <br />
     integers and setting.
